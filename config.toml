@@ -1,3 +1,60 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://furry.ac.cn/'
+languageCode = 'zh-cn'
+title = '中国福瑞研究院 China Academy of Furry'
+theme = 'digital-garden'
+copyright = "China Academy of Furry ©"
+
+hasCJKLanguage = true
+summarylength = 120
+enableEmoji = true
+enableRobotsTXT = true
+# copyright = "2010-{{ YEAR }}"
+
+[module]
+  [module.hugoVersion]
+    min = "0.81.0"
+    max = "0.84.2"
+
+[params]
+  name = "中国毛茸生物研究院"
+  description = "China Academy of Furry Life-form"
+  initials = "FA"
+
+[menu]
+  [[menu.main]]
+    name = "动态"
+    url = "/garden/"
+    weight = 1
+  [[menu.main]]
+    name = "项目"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "著作"
+    url = "/library/"
+    weight = 3
+  [[menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 4
+
+
+[taxonomies]
+  garden_tags = 'garden_tags'
+  project_tags = 'project_tags'
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+  [markup.highlight]
+    # Choose from https://xyproto.github.io/splash/docs/all.html
+    style = 'monokailight'
