@@ -1,8 +1,8 @@
 baseURL = 'https://furry.ac.cn/'
 languageCode = 'zh-cn'
-title = '中国福瑞研究院 China Academy of Furry'
+title = '中国毛茸生物研究院'
 theme = 'digital-garden'
-copyright = "China Academy of Furry ©"
+copyright = "Chinese Academy of Furry ©"
 
 hasCJKLanguage = true
 summarylength = 120
@@ -17,24 +17,20 @@ enableRobotsTXT = true
 
 [params]
   name = "中国毛茸生物研究院"
-  description = "China Academy of Furry Life-form"
+  description = "Chinese Academy of Furry Life-form"
   initials = "Academy of Furry"
 
 [menu]
   [[menu.main]]
-    name = "动态"
-    url = "/garden/"
+    name = "最新动态"
+    url = "/blog/"
     weight = 1
   [[menu.main]]
-    name = "推荐项目"
-    url = "/projects/"
-    weight = 2
-  [[menu.main]]
-    name = "著作"
+    name = "推荐作品"
     url = "/library/"
     weight = 3
   [[menu.main]]
-    name = "关于"
+    name = "关于本站"
     url = "/about/"
     weight = 4
 
