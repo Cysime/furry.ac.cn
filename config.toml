@@ -18,7 +18,7 @@ enableRobotsTXT = true
 [params]
   name = "中国毛茸生物研究院"
   description = "China Academy of Furry Life-form"
-  initials = "FA"
+  initials = "Academy of Furry"
 
 [menu]
   [[menu.main]]
@@ -26,7 +26,7 @@ enableRobotsTXT = true
     url = "/garden/"
     weight = 1
   [[menu.main]]
-    name = "项目"
+    name = "推荐项目"
     url = "/projects/"
     weight = 2
   [[menu.main]]
@@ -37,7 +37,6 @@ enableRobotsTXT = true
     name = "关于"
     url = "/about/"
     weight = 4
-
 
 [taxonomies]
   garden_tags = 'garden_tags'
