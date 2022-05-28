@@ -19,6 +19,7 @@ enableRobotsTXT = true
   name = "中国毛茸生物研究院"
   description = "China Academy of Furry Life-form"
   initials = "Academy of Furry"
+  favicon = 'https://image.glaceon.net/uploads/202205012353016.jpg'
 
 [menu]
   [[menu.main]]
